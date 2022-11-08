@@ -15,7 +15,7 @@ body {
 }
 .link {
   text-decoration: none;
-  color: currentColor;
+  color: var(--gray-cl);
 }
 
 .list {
@@ -72,9 +72,51 @@ body {
   cursor: pointer;
 }
 .hero-btn:hover,
-.hero-btn:fokus {
+.hero-btn:focus {
   background-color: var(--accent-bg-cl);
 }
+
+/*Footer Styles*/
 .footer {
   background-color: var(--dark-bg-cl);
+  color: var(--light-cl);
+}
+
+.mail-item {
+  text-decoration: none;
+}
+
+.footer-logo {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: calc(31 / 26);
+  letter-spacing: 0.03em;
+  color: var(--accent-cl);
+}
+
+.footer-logo-light {
+  color: var(--light-cl);
+}
+
+/*Portfolio Styles*/
+
+.button-item:hover {
+  background-color: var(--accent-bg-cl);
+  color: var(--light-cl);
+}
+,
+.button-item:focus {
+  color: var(--accent-cl);
+}
+.button-item {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: calc(26 / 16);
+  text-align: center;
+  letter-spacing: 0.03em;
+  background-color: var(--light-cl);
+  cursor: pointer;
 }
