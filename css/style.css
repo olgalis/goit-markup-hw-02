@@ -6,6 +6,7 @@
   --gray-cl: #757575;
   --dark-bg-cl: #2f303a;
   --accent-bg-cl: #188ce8;
+  --grey-bg-cl: #f5f4fa;
 }
 
 /* base styles */
@@ -15,6 +16,7 @@ body {
 }
 .link {
   text-decoration: none;
+  font-style: normal;
   color: var(--gray-cl);
 }
 
@@ -39,6 +41,7 @@ body {
   font-size: 14px;
   line-height: calc(16 / 14);
   letter-spacing: 0.02em;
+  color: var(--main-cl);
 }
 .header-link:hover,
 .header-link:focus {
@@ -47,6 +50,7 @@ body {
 .contacts-link {
   color: var(--gray-cl);
 }
+
 /*Hero styles*/
 .hero {
   background-color: var(--dark-bg-cl);
@@ -75,6 +79,75 @@ body {
 .hero-btn:focus {
   background-color: var(--accent-bg-cl);
 }
+/*Features Styles*/
+.features-title {
+  visibility: hidden;
+}
+
+.features-subtitle {
+  font-family: inherit;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: calc(16 / 14);
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.features-desc {
+  font-family: inherit;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: calc(24 / 14);
+  /* or 171% */
+  letter-spacing: 0.03em;
+  color: var(--gray-cl);
+}
+
+/*Service-name Styles*/
+.service-name {
+  font-family: inherit;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: calc(42 / 36);
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--main-cl);
+}
+
+/*Team Styles*/
+
+.team-name {
+  font-family: inherit;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: calc(42 / 36);
+  letter-spacing: 0.03em;
+  color: var(--main-cl);
+}
+
+.member-name {
+  font-family: inherit;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: calc(19 / 16);
+  letter-spacing: 0.03em;
+  color: var(--main-cl);
+}
+
+.member-position {
+  font-family: inherit;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: calc(19 / 16);
+  letter-spacing: 0.03em;
+  color: var(--gray-cl);
+}
 
 /*Footer Styles*/
 .footer {
@@ -99,24 +172,55 @@ body {
   color: var(--light-cl);
 }
 
+.address-kiev {
+  text-decoration: none;
+  font-family: inherit;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: calc(24 / 14);
+  letter-spacing: 0.03em;
+  color: var(--light-cl);
+}
+
 /*Portfolio Styles*/
 
 .button-item:hover {
   background-color: var(--accent-bg-cl);
   color: var(--light-cl);
 }
-,
-.button-item:focus {
+
+.button-list .button-item:focus {
   color: var(--accent-cl);
 }
 .button-item {
-  font-family: 'Roboto';
+  font-family: inherit;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: calc(26 / 16);
   text-align: center;
   letter-spacing: 0.03em;
-  background-color: var(--light-cl);
+  background-color: var(--grey-bg-cl);
   cursor: pointer;
+}
+
+.project-name {
+  font-family: inherit;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: calc(36 / 18);
+  letter-spacing: 0.06em;
+  color: var(--main-cl);
+}
+
+.project-type {
+  font-family: inherit;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: calc(30 / 16);
+  letter-spacing: 0.03em;
+  color: var(--gray-cl);
 }
