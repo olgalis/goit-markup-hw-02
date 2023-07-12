@@ -1,0 +1,72 @@
+:root{
+    --primary-color:#4D5AE5;
+    --dark-color:#2E2F42; 
+    --success-color:#31D0AA;
+    --text-color:#434455;
+    --subtle-color:#8E8F99;
+    --accent-color:#E7E9FC;
+    --light-color:#F4F4FD;
+
+}
+
+body {
+    font-family: 'Roboto', 'Raleway', sans-serif;
+    background-color: var(--light-color);
+    font-weight: Semibold;
+}
+
+a{
+    cursor: pointer;
+    font-style: normal;
+    font-weight: 400;
+}
+
+a:hover{
+color: var(--text-color);
+}
+a:focus{
+
+}
+
+button{
+    cursor: pointer;
+}
+
+button:hover {
+color: var(--primary-color);
+}
+
+.link {
+    text-decoration: none;
+}
+
+.link:hover {
+    color: var(--text-color);
+    
+}
+
+.link:focus {
+}
+
+.list {
+    text-decoration: none;
+}
+
+.header {}
+
+.header-nav {}
+
+.header-logo {}
+
+.header-list {}
+
+
+.header-list-item {}
+
+.header-address {}
+
+.header-address-list {}
+
+.header-address-item {}
+
+.header-address-item-link {}
