@@ -103,6 +103,11 @@ background-color: var(--button-ocean-color);
     color: var(--dark--navy-color);
 }
 
+.header-list{
+color: var(--dark--navy-color);
+font-weight: 500;
+}
+
 .header-list-item {
     color: var(--dark--navy-color);
         font-family: 'Roboto';
@@ -119,6 +124,9 @@ background-color: var(--button-ocean-color);
 
 .header-menu-link:hover{
     color: var(--button-ocean-color);  
+}
+.header-address-item{
+    font-style: normal;
 }
 
 .header-address-item-link {
@@ -148,7 +156,7 @@ background-color: var(--navy-blue-modal-color);
 .hero-btn {
    background-color: var(--primary--iris-color);
    color: var(--white-background);
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     font-size: 16px;
     font-style: inherit;
     font-weight: 500;
@@ -275,6 +283,6 @@ letter-spacing: 0.04em;
 
 .apps-list-desc {
     color: var(--text-slate-color);
-    
+
     
 }
