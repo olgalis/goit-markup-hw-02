@@ -113,7 +113,7 @@ background-color: var(--button-ocean-color);
         text-align: left;
 }
 
-header-list:focus{
+.header-menu-link:focus{
     color: var(--button-ocean-color);
 }
 
@@ -128,6 +128,7 @@ header-list:focus{
 .header-address-item-link:hover {
     color: var(--button-ocean-color);
     text-decoration: underline;
+    font-style: normal;
 }
 
 .header-address-item-link:focus{
@@ -135,17 +136,19 @@ header-list:focus{
 }
 
 /* -----------HERO--------------------- */
-.hero {}
+.hero {
+background-color: var(--navy-blue-modal-color);
+}
 
 .hero-title {
-    background-color: var(--navy-blue-modal-color);
     color: var(--white-background);
     text-align: center;
 }
 
 .hero-btn {
-    color: var(--primary--iris-color);
-    font-family: inherit;
+   background-color: var(--primary--iris-color);
+   color: var(--white-background);
+    font-family: 'Roboto';
     font-size: 16px;
     font-style: inherit;
     font-weight: 500;
@@ -153,7 +156,7 @@ header-list:focus{
     letter-spacing: 0.04em;
     }
 .hero-btn:focus{
-    color: var(--button-ocean-color);
+    background-color: var(--button-ocean-color);
 }
 
     /*--------ATTRIBUTES----------  */
@@ -188,7 +191,7 @@ header-list:focus{
     color: var(--navy-blue-modal-color);
     text-align: center;
 }
-.team-list{
+.team-list-list{
     background-color: var(--white-background);
 }
 
@@ -204,7 +207,7 @@ header-list:focus{
 }
 
 .footer-link {
-    color:var(--light-cloud-color);
+    color:var(--primary--iris-color);
     font-family: 'Raleway', sans-serif;
     font-size: 18px;
     font-weight: 800;
@@ -226,8 +229,9 @@ header-list:focus{
 
     /* ----------FILTER LIST BUTTONS */
 .filter-list-btn{
+font-family: 'Roboto' sans-serif;
 color: var(--primary--iris-color);
-background-color: var(--accent-corn-color);
+background-color: var(--light-cloud-color);
 font-family: inherit;
 font-size: 16px;
 font-style: normal;
@@ -238,6 +242,11 @@ letter-spacing: 0.04em;
 
 .filter-list-btn:hover {
     color: var(--white-background);
+}
+
+.filter-list-btn:focus{
+    color: var(--white-background);
+    background-color: var(--button-ocean-color);
 }
 
 .filter-list {}
@@ -258,6 +267,14 @@ letter-spacing: 0.04em;
 
 .apps-list-titel {
     color: var(--navy-blue-modal-color);
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2em;
+    letter-spacing: 0.02em;
 }
 
-.apps-list-description {}
+.apps-list-desc {
+    color: var(--text-slate-color);
+    
+    
+}
