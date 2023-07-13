@@ -15,7 +15,7 @@
 }
 
 body {
-    font-family: 'Roboto', 'Raleway', sans-serif;
+    font-family: 'Roboto', sans-serif;
     background-color: var(--white-background);
     color: var(--text-slate-color);
     font-weight: 400;
@@ -85,26 +85,13 @@ background-color: var(--button-ocean-color);
     list-style: none;
 }
 
-.visually-hidden {
-    /* position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    border: 0;
-    padding: 0;
-
-    white-space: nowrap;
-    clip-path: inset(100%);
-    clip: rect(0 0 0 0); */
-    overflow: hidden;
-}
 
 /* -------Header ----------- */
 .header {}
 
 .header-logo {
     color: var(--primary--iris-color);
-    font-family: Raleway;
+    font-family: 'Raleway', sans-serif;
     font-size: 18px;
     font-weight: 800;
     line-height: 1.17em;
@@ -116,9 +103,9 @@ background-color: var(--button-ocean-color);
     color: var(--dark--navy-color);
 }
 
-.header-list {
+.header-list-item {
     color: var(--dark--navy-color);
-        font-family: Roboto;
+        font-family: 'Roboto';
         font-size: 16px;
         font-weight: 500;
         line-height: 24px;
@@ -126,7 +113,7 @@ background-color: var(--button-ocean-color);
         text-align: left;
 }
 
-header-list:fokus{
+header-list:focus{
     color: var(--button-ocean-color);
 }
 
@@ -143,9 +130,9 @@ header-list:fokus{
     text-decoration: underline;
 }
 
-.header-address-item-link:fokus{
+.header-address-item-link:focus{
     color: var(--button-ocean-color);
-};
+}
 
 /* -----------HERO--------------------- */
 .hero {}
