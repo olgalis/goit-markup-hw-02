@@ -8,7 +8,6 @@
     --accent-corn-color:#E7E9FC;
     --light-cloud-color:#F4F4FD;
     --navy-blue-modal-color:#2E2F42;
-    --grey-hero-background:#2E2F42;
     --white-background:#FFFFFF;
     --dairy-modal-background:#FCFCFC; 
 
@@ -90,10 +89,10 @@ background-color: var(--button-ocean-color);
 .header {}
 
 .header-logo {
-    color: var(--primary--iris-color);
+    color: var(--dark--navy-color);
     font-family: 'Raleway', sans-serif;
     font-size: 18px;
-    font-weight: 800;
+    font-weight: 500;
     line-height: 1.17em;
     letter-spacing: 0.03em;
     text-align: left;
@@ -111,12 +110,23 @@ font-weight: 500;
 .header-list-item {
     color: var(--dark--navy-color);
         font-family: 'Roboto';
-        font-size: 16px;
         font-weight: 500;
-        line-height: 24px;
+        font-size: 16px;
+        line-height: 1.5em;
         letter-spacing: 0.02em;
         text-align: left;
 }
+
+.header-menu-link {
+    color: var(--dark--navy-color);
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5em;
+    letter-spacing: 0.02em;
+    text-align: left;
+}
+
 
 .header-menu-link:focus{
     color: var(--button-ocean-color);
@@ -125,6 +135,11 @@ font-weight: 500;
 .header-menu-link:hover{
     color: var(--button-ocean-color);  
 }
+
+.header-address{
+    font-style: normal;
+}
+
 .header-address-item{
     font-style: normal;
 }
@@ -283,6 +298,7 @@ letter-spacing: 0.04em;
 
 .apps-list-desc {
     color: var(--text-slate-color);
-
-    
+    font-size: 16px;
+    line-height: 1.5em;
+    letter-spacing: 0.02em; 
 }
