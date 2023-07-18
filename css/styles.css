@@ -89,10 +89,10 @@ background-color: var(--button-ocean-color);
 .header {}
 
 .header-logo {
-    color: var(--dark--navy-color);
+    color: var(--primary--iris-color);
     font-family: 'Raleway', sans-serif;
     font-size: 18px;
-    font-weight: 500;
+    font-weight: 800;
     line-height: 1.17em;
     letter-spacing: 0.03em;
     text-align: left;
@@ -108,7 +108,7 @@ font-weight: 500;
 }
 
 .header-list-item {
-    color: var(--dark--navy-color);
+    color: var(--navy-blue-modal-color);
         font-family: 'Roboto';
         font-weight: 500;
         font-size: 16px;
@@ -118,7 +118,7 @@ font-weight: 500;
 }
 
 .header-menu-link {
-    color: var(--dark--navy-color);
+    color: var(--navy-blue-modal-color);
     font-family: 'Roboto';
     font-weight: 500;
     font-size: 16px;
