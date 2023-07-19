@@ -150,6 +150,10 @@ background-color: var(--navy-blue-modal-color);
     background-color: var(--button-ocean-color);
 }
 
+.hero-btn:hover {
+    background-color: var(--button-ocean-color);
+}
+
     /*--------ATTRIBUTES----------  */
 
 .attributes-titel {
