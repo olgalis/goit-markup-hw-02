@@ -144,15 +144,17 @@ background-color: var(--navy-blue-modal-color);
     line-height: 1.5;
     letter-spacing: 0.04em;
     cursor: pointer;
-        
-    }
+}
+
+.hero-btn:hover{
+    background-color: var(--button-ocean-color);
+}
+
 .hero-btn:focus{
     background-color: var(--button-ocean-color);
 }
 
-.hero-btn:hover {
-    background-color: var(--button-ocean-color);
-}
+
 
     /*--------ATTRIBUTES----------  */
 
