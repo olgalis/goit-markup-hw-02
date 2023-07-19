@@ -20,59 +20,15 @@ body {
     font-weight: 400;
     font-size: 16px;
     font-style: normal;
-    line-height: 1.5em;
+    line-height: 1.5;
     letter-spacing: 0.02em;
     }
-
-h1{
-    font-weight: 700;
-    font-size: 56px;
-    letter-spacing: 0.02em;
-    line-height:1.07em; 
-}
-
-h2{
-    font-weight: bold;
-    font-size: 36px;
-    font-weight: 700;
-    line-height: 1.11em;
-    letter-spacing: 0.02em;
-    text-transform: capitalize;
-}
-
-h3{
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2em;
-    letter-spacing: 0.02em;
-}
-
-a{
-    cursor: pointer;
-    font-weight: 400;
-    font-style: normal;
-}
-
-a:hover{
-color: var(--text-slate-color);
-}
-
-
-button{
-    cursor: pointer;
-    background-color: var(--accent-corn-color);
-
-}
-
-button:hover {
-background-color: var(--button-ocean-color);
-}
 
 .link {
     text-decoration: none;
     font-weight: 400;
     font-size: 16px;
-    line-height: 1.5em;
+    line-height: 1.5;
     letter-spacing: 0.02em;
 }
 
@@ -91,7 +47,7 @@ background-color: var(--button-ocean-color);
     font-weight: 800;
     font-style: normal;
     font-size: 18px;
-    line-height: 1.17em;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-align: left;
     text-transform: uppercase;
@@ -111,7 +67,7 @@ font-weight: 500;
         font-family: 'Roboto';
         font-weight: 500;
         font-size: 16px;
-        line-height: 1.5em;
+        line-height: 1.5;
         letter-spacing: 0.02em;
         text-align: left;
 }
@@ -121,9 +77,10 @@ font-weight: 500;
     font-family: 'Roboto';
     font-weight: 500;
     font-size: 16px;
-    line-height: 1.5em;
+    line-height: 1.5;
     letter-spacing: 0.02em;
     text-align: left;
+    cursor: pointer;
 }
 
 
@@ -132,20 +89,26 @@ font-weight: 500;
 }
 
 .header-menu-link:hover{
-    color: var(--button-ocean-color);  
+    color: var(--button-ocean-color); 
 }
 
 .header-address{
     font-style: normal;
+    cursor: pointer;
+    font-weight: 400;
 }
 
 .header-address-item{
     font-style: normal;
+    cursor: pointer;
+    font-weight: 400;
 }
 
 .header-address-item-link {
     font-style: normal;
     color: inherit;
+    cursor: pointer;
+    font-weight: 400;
 }
 .header-address-item-link:hover {
     color: var(--button-ocean-color);
@@ -165,6 +128,10 @@ background-color: var(--navy-blue-modal-color);
 .hero-title {
     color: var(--white-background);
     text-align: center;
+    font-weight: 700;
+    font-size: 56px;
+    letter-spacing: 0.02em;
+    line-height: 1.07;
 }
 
 .hero-btn {
@@ -174,8 +141,10 @@ background-color: var(--navy-blue-modal-color);
     font-size: 16px;
     font-style: inherit;
     font-weight: 500;
-    line-height: 1.5em;
+    line-height: 1.5;
     letter-spacing: 0.04em;
+    cursor: pointer;
+        
     }
 .hero-btn:focus{
     background-color: var(--button-ocean-color);
@@ -185,12 +154,16 @@ background-color: var(--navy-blue-modal-color);
 
 .attributes-titel {
     color:var(--navy-blue-modal-color);
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
 }
 
 .attributes-text {
     color: var(--text-slate-color);
         font-size: 16px;
-        line-height: 1.5em;
+        line-height: 1.5;
         letter-spacing: 0.02em;
 }
 
@@ -198,6 +171,12 @@ background-color: var(--navy-blue-modal-color);
 .products-titel {
     color: var(--navy-blue-modal-color) ;
     text-align: center;
+    font-weight: bold;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
 }
 
 .products-list-item {
@@ -212,6 +191,12 @@ background-color: var(--navy-blue-modal-color);
 .team-title {
     color: var(--navy-blue-modal-color);
     text-align: center;
+    font-weight: bold;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
 }
 .team-list-list{
     background-color: var(--white-background);
@@ -219,6 +204,10 @@ background-color: var(--navy-blue-modal-color);
 
 .team-list-name {
     color: var(--navy-blue-modal-color);
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
 }
 
 
@@ -233,9 +222,10 @@ background-color: var(--navy-blue-modal-color);
     font-family: 'Raleway', sans-serif;
     font-size: 18px;
     font-weight: 800;
-    line-height: 1.17em;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    cursor: pointer;
 }
 
 .footer-link span {
@@ -258,12 +248,15 @@ font-family: inherit;
 font-size: 16px;
 font-style: normal;
 font-weight: 500;
-line-height: 1.5em;
+line-height: 1.5;
 letter-spacing: 0.04em;
+cursor: pointer;
+   
 }
 
 .filter-list-btn:hover {
     color: var(--white-background);
+    background-color: var(--button-ocean-color);
 }
 
 .filter-list-btn:focus{
@@ -279,13 +272,15 @@ letter-spacing: 0.04em;
     color: var(--navy-blue-modal-color);
     font-weight: 500;
     font-size: 20px;
-    line-height: 1.2em;
+    line-height: 1.2;
     letter-spacing: 0.02em;
+    cursor: pointer;
+    
 }
 
 .apps-list-desc {
     color: var(--text-slate-color);
     font-size: 16px;
-    line-height: 1.5em;
+    line-height: 1.5;
     letter-spacing: 0.02em; 
 }
